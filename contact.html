@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - DevTech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">DevTech Solutions</div>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="team.html">ทีมงาน</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="contact" class="page active">
+            <h1 style="text-align: center; margin-bottom: 2rem; color: #667eea;">ติดต่อเรา</h1>
+            <p style="text-align: center; color: #666; margin-bottom: 3rem; font-size: 1.1rem;">
+                พร้อมให้คำปรึกษาและพัฒนาระบบที่ตรงกับความต้องการของคุณ
+            </p>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-bottom: 3rem;">
+                <div class="project-card" style="text-align: center;">
+                    <h3 style="color: #667eea; margin-bottom: 1rem;">📍 ที่อยู่บริษัท</h3>
+                    <p style="color: #666; line-height: 1.8;">
+                      ซอย สุโขทัย 5 ตำบลสุเทพ 
+                      <br>อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200
+                    </p>
+                </div>
+
+                <div class="project-card" style="text-align: center;">
+                    <h3 style="color: #667eea; margin-bottom: 1rem;">📞 ติดต่อเรา</h3>
+                    <p style="color: #666; line-height: 1.8;">
+                        <br>
+                        โทรศัพท์: 02-123-4567<br>
+                    </p>
+                </div>
+
+                <div class="project-card" style="text-align: center;">
+                    <h3 style="color: #667eea; margin-bottom: 1rem;">📧 อีเมล</h3>
+                    <p style="color: #666; line-height: 1.8;">
+                        info@devtech-solutions.com<br>
+                        sales@devtech-solutions.com<br>
+                        support@devtech-solutions.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card" style="max-width: 800px; margin: 0 auto;">
+                <h3 style="color: #667eea; margin-bottom: 2rem; text-align: center;">ส่งข้อความหาเรา</h3>
+                <form style="display: grid; gap: 1.5rem;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <input type="text" placeholder="ชื่อ-นามสกุล"
+                            style="padding: 1rem; border: 2px solid #e1e8ed; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s ease;"
+                            onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e1e8ed'">
+                        <input type="email" placeholder="อีเมล"
+                            style="padding: 1rem; border: 2px solid #e1e8ed; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s ease;"
+                            onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e1e8ed'">
+                    </div>
+                    <input type="text" placeholder="เบอร์โทรศัพท์"
+                        style="padding: 1rem; border: 2px solid #e1e8ed; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s ease;"
+                        onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e1e8ed'">
+                    <input type="text" placeholder="ชื่อบริษัท"
+                        style="padding: 1rem; border: 2px solid #e1e8ed; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s ease;"
+                        onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e1e8ed'">
+                    <select
+                        style="padding: 1rem; border: 2px solid #e1e8ed; border-radius: 10px; font-size: 1rem; background: white; transition: border-color 0.3s ease;"
+                        onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e1e8ed'">
+                        <option value="">เลือกบริการที่สนใจ</option>
+                        <option value="pos">ระบบ POS (Point of Sale)</option>
+                        <option value="erp">ระบบ ERP</option>
+                        <option value="mobile">แอพพลิเคชันมือถือ</option>
+                        <option value="web">เว็บแอพพลิเคชัน</option>
+                        <option value="ai">ระบบ AI และ Data Analytics</option>
+                        <option value="consulting">ให้คำปรึกษา</option>
+                        <option value="other">อื่นๆ</option>
+                    </select>
+                    <textarea placeholder="รายละเอียดโครงการและความต้องการ" rows="5"
+                        style="padding: 1rem; border: 2px solid #e1e8ed; border-radius: 10px; font-size: 1rem; resize: vertical; font-family: inherit; transition: border-color 0.3s ease;"
+                        onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e1e8ed'"></textarea>
+                    <button type="submit" class="btn" style="justify-self: center; width: fit-content;"
+                        onclick="alert('ขอบคุณสำหรับข้อความของคุณ เราจะติดต่อกลับภายใน 24 ชั่วโมง'); return false;">ส่งข้อความ</button>
+                </form>
+            </div>
+
+            <div style="margin-top: 3rem; text-align: center;">
+                <h3 style="color: #667eea; margin-bottom: 2rem;">เวลาทำการ</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div class="project-card"
+                        style="text-align: center; background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));">
+                        <h4 style="color: #333; margin-bottom: 0.5rem;">วันจันทร์ - วันศุกร์</h4>
+                        <p style="color: #667eea; font-weight: 500;">9:00 - 18:00 น.</p>
+                    </div>
+                    <div class="project-card"
+                        style="text-align: center; background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));">
+                        <h4 style="color: #333; margin-bottom: 0.5rem;">วันเสาร์</h4>
+                        <p style="color: #667eea; font-weight: 500;">9:00 - 16:00 น.</p>
+                    </div>
+                    <div class="project-card"
+                        style="text-align: center; background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));">
+                        <h4 style="color: #333; margin-bottom: 0.5rem;">บริการฉุกเฉิน</h4>
+                        <p style="color: #667eea; font-weight: 500;">24/7 ทุกวัน</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
