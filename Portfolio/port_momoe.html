@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Momoe Dev — Portfolio</title>
+  <meta name="description" content="Portfolio ของ Developer — Web, Frontend, Backend, DevOps" />
+
+  <!-- Google Font (you can change) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="momoe/style.css">
+<script src="momoe/script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="nav" role="navigation" aria-label="main navigation">
+      <div class="brand">
+        <div class="logo"  > <img src="https://libapi.camt.cmu.ac.th/resource/image/d6bc12fb94a965a6a65c70081c89554f8f63acbdfa6fecad9dc0d2e51e49c00d_image_url.jpg" ></div>
+        <div>
+          <div style="font-size:13px;color:var(--muted)">Portfolio</div>
+          <div style="font-weight:800">Momoe Dev</div>
+        </div>
+      </div>
+
+      <nav style="margin-left:auto">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" class="btn ghost" style="padding:8px 12px;margin-left:8px">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="top">
+    <section class="hero" aria-label="Hero - Momoe Dev">
+      <!-- Parallax background layers -->
+      <div class="parallax-layer layer stars" data-speed="0.12" aria-hidden="true"></div>
+      <div class="parallax-layer layer grid" data-speed="0.06" aria-hidden="true"></div>
+
+      <!-- Foreground content -->
+      <div class="hero-inner">
+        <div class="intro">
+          <h1>
+  Hi, I'm <span class="accent">Momoe</span><br>
+  <small style="font-weight:600;color:var(--muted)">
+    <span id="job-title">Full-stack Developer — Web & Cloud</span>
+  </small>
+</h1>
+          <p>สร้างเว็บสวย ทำงานเป็นระบบ เขียนโค้ดที่สะอาดและทดสอบได้ — React / Node / Kotlin / Docker / CI-CD</p>
+
+          <div class="cta">
+            <a class="btn" href="#projects">ดูโปรเจค</a>
+            <a class="btn ghost" href="#contact">จ้างงาน / ติดต่อ</a>
+          </div>
+
+          <div style="margin-top:16px;color:var(--muted);font-size:13px">
+            <span style="display:inline-block;margin-right:10px">✨ มีประสบการณ์ทำงานจริง</span>
+            <span style="display:inline-block;margin-right:10px">⚡ เขียน clean code</span>
+            <span style="display:inline-block">🔒 ใส่ใจ security</span>
+          </div>
+        </div>
+
+        <aside class="profile">
+          <div class="avatar" aria-hidden="true"><img src="momoe/7 โม่.jpg"></div>
+          <div class="meta">
+            <h3>Momoe Dev</h3>
+            <p class="muted">Frontend & Backend Developer — ชำนาญ Web performance, accessibility และระบบ Cloud</p>
+            <div style="margin-top:12px;display:flex;gap:10px">
+              <div class="muted" style="font-size:12px">Available for: Freelance · Contract · Full-time</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="section-title">
+        <h2>About</h2>
+        <div class="section-sub">ประวัติสั้น ๆ</div>
+      </div>
+
+      <div class="reveal" data-reveal>
+        <p class="muted">ผมเป็น developer ที่ทำงานทั้ง frontend และ backend — ชอบสร้าง UI ที่ตอบสนองเร็ว, สร้าง API ที่มั่นคง และทำระบบ deployment ที่อัตโนมัติ มีพื้นฐานการออกแบบ UX เบื้องต้น ทำงานร่วมกับทีม Agile ได้ดี</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <div class="section-sub">เทคโนโลยีที่ใช้บ่อย</div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill reveal" data-reveal>
+          <h4>JavaScript / TypeScript <small class="muted">(Frontend)</small></h4>
+          <div class="bar"><i data-width="92%"></i></div>
+          <small class="muted">React, Next.js, Vite, Performance tuning</small>
+        </div>
+
+        <div class="skill reveal" data-reveal>
+          <h4>Node.js / Deno <small class="muted">(Backend)</small></h4>
+          <div class="bar"><i data-width="63%"></i></div>
+          <small class="muted">Express, Fastify, REST & GraphQL</small>
+        </div>
+
+        <div class="skill reveal" data-reveal>
+          <h4>Kotlin / Java <small class="muted">(Server)</small></h4>
+          <div class="bar"><i data-width="70%"></i></div>
+          <small class="muted">Ktor, Spring Boot</small>
+        </div>
+
+        <div class="skill reveal" data-reveal>
+          <h4>DevOps & Cloud <small class="muted">(Infra)</small></h4>
+          <div class="bar"><i data-width="50%"></i></div>
+          <small class="muted">Docker, CI/CD, AWS/GCP basics</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <div class="section-sub">ตัวอย่างงาน</div>
+      </div>
+
+      <div class="projects">
+        <article class="card reveal" data-reveal>
+          <h3>Realtime Chat App</h3>
+          <p>Websocket-based chat with rooms, presence, and typing indicators. Scalable architecture using socket clusters.</p>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Socket.io</span>
+            <span class="tag">Docker</span>
+          </div>
+        </article>
+
+        <article class="card reveal" data-reveal>
+          <h3>E-commerce PWA</h3>
+          <p>Progressive web app with offline-first caching, fast checkout flow, and analytics for conversion optimization.</p>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">Stripe</span>
+            <span class="tag">Service Worker</span>
+          </div>
+        </article>
+
+        <article class="card reveal" data-reveal>
+          <h3>Microservices Platform</h3>
+          <p>Microservices with API gateway, authentication, and automated deployments using CI pipelines.</p>
+          <div class="tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Kubernetes</span>
+          </div>
+        </article>
+
+        <article class="card reveal" data-reveal>
+          <h3>Portfolio CMS</h3>
+          <p>Headless CMS to manage content, projects and blog with custom admin and role-based access.</p>
+          <div class="tags">
+            <span class="tag">GraphQL</span>
+            <span class="tag">Node</span>
+            <span class="tag">Postgres</span>
+          </div>
+        </article>
+      </div>
+
+      <!-- GitHub Link with Animation -->
+      <div class="github-section reveal" data-reveal>
+        <div class="github-card">
+          <div class="github-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </div>
+          <div class="github-content">
+            <h3>View All My Projects</h3>
+            <p>ดูโค้ดและโปรเจคทั้งหมดได้ที่ GitHub ของผม มีทั้งโปรเจคส่วนตัวและโอเพนซอร์ส</p>
+            <div class="github-stats">
+              <span class="stat-item">
+                <span class="stat-icon">⭐</span>
+                <span>10+ Stars</span>
+              </span>
+             
+            </div>
+          </div>
+          <div class="github-link">
+            <a href="https://github.com/Momoekub" target="_blank" class="btn github-btn">
+              <span>Visit GitHub</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7V17"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <div class="section-sub">ติดต่อ / Hire</div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="reveal" data-reveal>
+          <p class="muted">อยากพูดคุยงานใหม่ หรือต้องการแก้ปัญหาเว็บไซต์ ติดต่อได้ที่อีเมลหรือลิงก์ด้านล่าง</p>
+
+          <div style="margin-top:16px;">
+            <div class="card" style="display:flex;flex-direction:column;gap:10px">
+              <div class="flex">
+                <strong>Email</strong>
+                <span class="muted" style="margin-left:auto">momoemothana@gmail.com</span>
+              </div>
+              <div class="flex">
+                <strong>Location</strong>
+                <span class="muted" style="margin-left:auto">Chiangmai, Thailand</span>
+              </div>
+              <div class="flex">
+                <strong>Facebook</strong>
+                <span class="muted" style="margin-left:auto">Momoe mothana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="reveal" data-reveal onsubmit="event.preventDefault(); alert('ส่งข้อความเรียบร้อย ');">
+          <input type="text" placeholder="ชื่อ - นามสกุล" required />
+          <input type="email" placeholder="อีเมล" required />
+          <input type="text" placeholder="หัวข้อ" />
+          <textarea placeholder="ข้อความ"></textarea>
+          <div style="display:flex;gap:10px;align-items:center">
+            <button class="btn" type="submit">ส่งข้อความ</button>
+            <small class="muted">หรือส่งอีเมลตรงมาได้</small>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <strong>Momoe Dev</strong> — Built with care • Designed for performance</div>
+    </footer>
+  </main>
+</body>
+</html>
